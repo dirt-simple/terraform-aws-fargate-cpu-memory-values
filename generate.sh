@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -eo pipefail
+
 # docs: https:#docs.aws.amazon.com/AmazonECS/latest/developerguide/task-cpu-memory-error.html
 
 function write_range_to_main_tf() {
