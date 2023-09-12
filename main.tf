@@ -63,3 +63,32 @@ output cpu_4096-mem_28GB { value = "28672" }
 output cpu_4096-mem_29GB { value = "29696" }
 output cpu_4096-mem_30GB { value = "30720" }
 
+# 8192 (8 vCPU)	Between 8192 (16GB) and 61440 (60GB) in increments of 4096 (4GB)
+output cpu_8192 { value = "8192" }
+output cpu_8192-mem_16GB { value = "16384" }
+output cpu_8192-mem_20GB { value = "20480" }
+output cpu_8192-mem_24GB { value = "24576" }
+output cpu_8192-mem_28GB { value = "28672" }
+output cpu_8192-mem_32GB { value = "32768" }
+output cpu_8192-mem_36GB { value = "36864" }
+output cpu_8192-mem_40GB { value = "40960" }
+output cpu_8192-mem_44GB { value = "45056" }
+output cpu_8192-mem_48GB { value = "49152" }
+output cpu_8192-mem_52GB { value = "53248" }
+output cpu_8192-mem_56GB { value = "57344" }
+output cpu_8192-mem_60GB { value = "61440" }
+
+# 16384 (16 vCPU) Between 32768 (32GB) and 122880 (120GB) in increments of 8192 (8GB)
+output cpu_16384 { value = "16384" }
+output cpu_16384-mem_32GB { value = "32768" }
+output cpu_16384-mem_40GB { value = "40960" }
+output cpu_16384-mem_48GB { value = "49152" }
+output cpu_16384-mem_56GB { value = "57344" }
+output cpu_16384-mem_64GB { value = "65536" }
+output cpu_16384-mem_72GB { value = "73728" }
+output cpu_16384-mem_80GB { value = "81920" }
+output cpu_16384-mem_88GB { value = "90112" }
+output cpu_16384-mem_96GB { value = "98304" }
+output cpu_16384-mem_104GB { value = "106496" }
+output cpu_16384-mem_112GB { value = "114688" }
+output cpu_16384-mem_120GB { value = "122880" }
